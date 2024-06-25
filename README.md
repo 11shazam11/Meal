@@ -49,3 +49,10 @@ Meal information
 
 * Display Info: Displays detailed information about the selected ingredient.
 * Related Meals: Shows meals related to the ingredient.
+
+# - export.js
+
+* Modular function: Contains reusable functoins like
+  1. Search bar algo
+  2. Fetch data function
+  3. Add fav function
