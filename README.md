@@ -19,3 +19,17 @@ Search Functionality
 * Suggestion Item Click: Clicking on a suggestion item will redirect you to a detailed information page about the meal.
 
 ![](https://github.com/11shazam11/Meal/blob/main/ezgif.com-video-to-gif-converter.gif)
+
+Latest Section
+
+* Card Image Click: Clicking on a card image will provide more information about the meal. The image is wrapped in an anchor tag which redirects to the mealinfo page with the meal's ID as a parameter.
+* Add to Favorites: Click on the "Add Fav" button to add the meal to the favorite section.
+
+Favourite Section
+
+* Display Favorites: Favorite items are displayed in this section.These are stored in local storage. Click on fav item to get mre information about it.
+
+
+Ingredient Section 
+
+*
