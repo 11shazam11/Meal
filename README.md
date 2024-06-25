@@ -18,3 +18,4 @@ Search Functionality
 * Suggestions: As you start typing, suggestions will appear. You can press Enter or click on the search icon to display the results related to the entered data.
 * Suggestion Item Click: Clicking on a suggestion item will redirect you to a detailed information page about the meal.
 
+![](https://github.com/11shazam11/Meal/blob/main/ezgif.com-video-to-gif-converter.gif)
