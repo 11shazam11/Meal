@@ -9,6 +9,4 @@ This app is divided into following main scripts
 *  ingredients.js
 *  export.js
 
-
-
-
+# - script.js
