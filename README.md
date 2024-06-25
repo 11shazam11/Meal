@@ -32,4 +32,20 @@ Favourite Section
 
 Ingredient Section 
 
-*
+* Popular Ingredients: Displays some popular ingredients.Clicking on an ingredient displays more information about it.
+
+Random Meals
+
+* Refresh for Random Meals: Refresh the page to get more random meals.
+
+# - mealinfo.js
+
+Meal information
+
+* Display Information: This script displays detailed information about the meal, including ingredients and cooking instructions.
+* Ingredient Click: Clicking on an ingredient within a meal displays more information about that ingredient.
+
+# - ingridents.js
+
+* Display Info: Displays detailed information about the selected ingredient.
+* Related Meals: Shows meals related to the ingredient.
