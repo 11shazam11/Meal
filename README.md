@@ -4,9 +4,11 @@ This Meal App provides an easy way to search for meals, explore meal information
 
 # Overview
 This app is divided into following main scripts
-1> script.js (main)
-2> mealinfo.js
-3> ingredients.js
-4> expot.js
+*  script.js (main)
+*  mealinfo.js
+*  ingredients.js
+*  export.js
+
+
 
 
