@@ -1,0 +1,296 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #585858;
+  background-image: url('./pexels-yente-van-eynde-1263034-2403392.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  color: black;
+  background: rgba(255, 255, 255, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: space-around;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.home {
+  color: midnightblue;
+  border: 2px solid black;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+
+.favx {
+  position: absolute;
+  top: 20px;
+}
+
+.htop {
+  position: relative;
+  bottom: 10px;
+}
+
+.searchBox {
+  position: relative;
+  height: 50px;
+  overflow: hidden;
+  margin: 20px auto 0;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.searchBox input {
+  flex: 1;
+  padding: 20px;
+  border: none;
+  outline: none;
+  font-size: 25px;
+}
+
+.searchBox button {
+  width: 15%;
+  border: none;
+  outline: none;
+}
+
+.fa-solid {
+  font-size: 25px;
+}
+
+.resultBox {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  overflow: hidden;
+  left: 30%;
+  margin-top: 5px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  z-index: 1;
+  display: none;
+  color: black;
+}
+
+.resultBox ul {
+  margin: 0;
+  padding: 15px 10px;
+}
+
+.resultBox ul li {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 7px;
+  margin: 7px;
+  list-style: none;
+}
+
+.resultBox ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.resultBox ul li:hover {
+  background-color: #e0e0e0;
+}
+
+.rest {
+  display: flex;
+  position: relative;
+  top: 100px;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 10px;
+  background: rgba(111, 111, 111, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  /* border: 2px dashed red; */
+}
+
+.left {
+  position: relative;
+  width: 60%;
+  /* display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; */
+}
+
+.box {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* border: 2px solid black; */
+}
+
+.card {
+  height: 300px;
+  width: 250px;
+}
+
+.card-body a {
+  position: absolute !important;
+  bottom: 10px;
+}
+
+.item {
+  padding: 5px;
+  background: transparent;
+}
+
+.ingitem {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.right {
+  position: relative;
+  width: 30%;
+  /* border: 2px dashed green; */
+}
+
+.fav {
+  display: flex;
+  justify-content: space-around;
+  background: rgba(111, 111, 111, 0.7);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.fav img {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.img {
+  display: flex;
+}
+
+.img p {
+  padding-top: 15px;
+}
+
+.remo button {
+  position: relative;
+  top: 35%;
+}
+
+
+/* Second page
+ */
+/* .container {
+  background: rgba(111, 111, 111, 0.7);
+  border-radius: 10px;
+}
+ */
+.container {
+  position: relative;
+  top: 100px;
+}
+
+
+
+.top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info {
+  background: rgba(111, 111, 111, 0.7);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.info img {
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.ing {
+  padding: 10px;
+  margin: 10px;
+}
+
+.ingbig {
+  position: relative;
+  top: 65px;
+}
+
+.inglist {
+  background: rgba(111, 111, 111, 0.7);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inglist a {
+  text-decoration: none;
+  color: white;
+}
+
+.item {
+  flex: 0 0 calc(100% / 5);
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+
+.center {
+  text-align: center;
+}
+
+.bottom {
+  text-align: center;
+  background: rgba(111, 111, 111, 0.7);
+  border-radius: 10px;
+}
+
+.cook {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.scroll {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.favP {
+  text-align: center;
+  background: rgba(111, 111, 111, 0.7);
+  border-radius: 10px;
+}
