@@ -1,5 +1,4 @@
-let counter = 0;
-let enterarr = [];
+
 //Suggestoin bar Algo
 async function fetchdata(str) {
   try {
@@ -17,7 +16,6 @@ async function suggestion() {
   let input = document.getElementById('search');
   //on entering anything on input following will trigger
   input.onkeyup = () => {
-    enterarr.length = 0;
     //if active element is not input block will disaapear
     let interval = setInterval(() => {
       let active = document.activeElement;
@@ -40,7 +38,6 @@ async function suggestion() {
       con.innerHTML = '';
       let ul = document.createElement('ul');
       for (let i = 0; i < result.length; i++) {
-        enterarr.push(result[i].idMeal);
         let li = document.createElement('li');
         let link = document.createElement('a');
         link.textContent = result[i].strMeal;
