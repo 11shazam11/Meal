@@ -18,7 +18,7 @@ function displayfav(name, img) {
     let div = document.createElement('div');
     div.className - 'item';
     div.innerHTML = `<div class="card" style="width: 10rem;">
-        <a href="second.html?id=${result.idMeal}"><img src="${img}" class="card-img-top" alt="..."></a>
+        <a href="mealinfo.html?id=${result.idMeal}"><img src="${img}" class="card-img-top" alt="..."></a>
           <div class="card-body">
             <h5 class="card-title">${name}</h5>
             <a href="#" id="${name}" class="btn btn-primary">Remove</a>
