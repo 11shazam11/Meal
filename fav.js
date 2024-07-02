@@ -13,7 +13,7 @@ defalutfav();
 
 function displayfav(name, img) {
   fetchdata(name).then(data => {
-    let result = data.meals;
+    let result = data.meals[0];
     let con = document.querySelector('.favP');
     let div = document.createElement('div');
     div.className - 'item';
