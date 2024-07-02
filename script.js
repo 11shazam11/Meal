@@ -121,7 +121,7 @@ async function byid(id) {
 ///adding latet block
 
 function latest() {
-  let mealid = [52823, 52940, 52841, 52853, 52830, 52791, 52781, 52774];
+  let mealid = [52823, 52940, 52841, 52853, 52830, 52791, 52782, 52774];
   for (let i of mealid) {
     byid(i).then(data => {
       let result = data.meals[0];
