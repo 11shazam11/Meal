@@ -50,6 +50,8 @@ Meal information
 * Display Info: Displays detailed information about the selected ingredient.
 * Related Meals: Shows meals related to the ingredient.
 
+  ![alt text] (https://github.com/11shazam11/Meal/blob/main/ingi.png)
+
 # - export.js
 
 * Modular function: Contains reusable functoins like
